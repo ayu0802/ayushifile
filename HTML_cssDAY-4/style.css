@@ -1,0 +1,200 @@
+/* h1{
+    color:red;
+} */
+/* Universal setting */
+/* *{
+
+  padding:0;
+  margin:0;
+  box-sizing: content-box;  
+  color: red;
+} */
+
+/* h1{
+
+    color: blue;
+}
+
+.title{
+    color: green;
+
+}
+
+#t1{
+
+    color: black;
+}
+
+/* p{
+    background-color: aqua;
+} */
+
+/* .para{
+    background-color: yellow;
+}
+
+p.para{
+    background-color: yellowgreen;
+}
+
+.para.text{
+    background-color: aquamarine;
+} */ 
+
+/*  COMBINATORSSSS */
+/* SAPCE SELCTORE */
+/* div p{
+
+    color:blueviolet;
+} */
+/* CHILD SELCTORE */
+/* div>p{
+    text-align: center;
+    background-color: yellow;
+    color: red;
+    
+} */
+/* 
+section p{
+    color: red;
+} */
+/* ADITIONAL SELECTOR (+) */
+/* p+div{
+
+    background-color: aquamarine;
+}
+
+div+p{
+
+    background-color: orange;
+}
+
+div+div>section>p{
+    background-color: blueviolet;
+} 
+    \
+        p+p+p{
+
+        color: green;
+    }
+    /* PSEDO classes !!! */
+
+/* p:hover {
+    background-color: yellowgreen;
+   
+}
+
+a:link{
+    background-color: aqua;
+}
+
+a:visited{
+    background-color: yellow;
+} */
+
+/* button{
+
+    border: none;
+    padding: 8px 20px;
+    background-color: green;
+    border-radius: 5px;
+    color: antiquewhite;
+    font-size: 20px;
+    box-shadow: 2px 4px 2px 6px palevioletred;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    transition: all 700ms ease;
+} */
+/* button:hover{
+
+    background-color: burlywood;
+    scale: 1.2;
+} 
+button:active{
+    scale:0.9;
+} */
+/* Pseudo Classes  */
+/* /* li:first-child{
+    background-color: yellow;
+} */
+
+/* div{
+
+    padding: 10px;
+    border: 10px solid;
+    border-color: blueviolet;
+}
+body>ul>li:first-child{
+    background-color: yellow;
+}
+
+body>div>ul>li:first-child{
+    background-color: yellowgreen;
+}
+
+p:nth-child(2), p:nth-child(4){
+    background-color: antiquewhite;
+}
+
+/* this will not work */
+/* p:nth-child(3){
+    background-color: coral;
+}
+/* this works */
+/* li:nth-child(3){
+    background-color: cornflowerblue;
+} */
+/* 
+p:nth-of-type(1){
+    background-color: greenyellow;
+} */ 
+
+/* for SNACKS attempting Pseudo class */
+/* div li:last-of-type{
+    background-color: yellow;
+} */
+
+/* div li:nth-of-type(3){
+    background-color: brown;
+} */
+/* 
+div li:nth-last-of-type(1){
+    background-color: burlywood;
+} */
+/* div li:nth-last-child(2){
+    background-color: grey;
+} */
+
+/* div li:nth-child(5){
+    background-color: lime;
+
+} */
+
+/* FLEX BOX */
+
+.parent>div{
+    font-size: 24px;
+    background-color: blanchedalmond;
+    border: 1px solid goldenrod;
+    /* width: 100px;
+    flex-shrink: 0px ; */
+}
+
+.parent{
+    display: flex;
+    justify-content: center;
+    /* align-items: baseline; */
+    gap: 10px;
+    height: 300px;
+}
+
+.child3{
+    flex-shrink: 2px;
+    flex-grow: 1;
+}
+
+.child1, .child2, .child4
+{
+    flex-shrink: 1px;
+    width: 300px;
+
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model & Specificity</title>
+    <style> 
+/* body {
+    margin: 0;
+} */
+/* <!-- when we need to provide padding and margin in all content all together --!> */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        div {
+            margin: 16px;
+            padding: 20px;
+            background-color: yellow;
+            /* border-width: 6px;
+            border-color: violet;
+            border-style: solid; */
+            border: 6px solid violet; 
+        }
+        /* we can provide css features by creatings ids. */
+        .b-m{
+            margin: 20px;
+            padding: 20px;
+            margin-top: 50px;
+            margin-bottom: 20px;
+            margin-left: 650px;
+            /* margin-right: auto; */
+            padding: 24px;
+            background-color: yellow;
+            border: 6px solid violet; 
+            width: 100px;
+            text-align: center;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="b-m"> Hello World! </div> <br/>
+    <!-- <span class="b-m"> Hello World! </span> -->
+    <!-- <div> Hello World! </div>
+    <p> Hello World! </p>
+    <p> Hello World! </p> -->
+
+
+</body>
+</html>
