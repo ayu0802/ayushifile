@@ -1,0 +1,39 @@
+*{
+    background-color: aliceblue;
+    color: grey;
+    padding: 10%;
+    margin: 2px;
+    /* background-image: url(img-2.gif); */
+}
+
+body{
+    background-color: cadetblue;
+
+}
+
+/* h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+} */
+p{
+    font-family: Times New Roman;
+    font-size: 24px;
+    text-align: justify;
+}
+#head1{
+    color:rgb(8, 127, 127);
+}
+.first{
+    color: red;
+}
+
+p.first{
+    color: rgba(13, 22, 22, 0.558);
+    opacity: 0.9;
+}
+
+h2.sec, p.sec{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}

@@ -1,0 +1,42 @@
+*{
+    padding: 10px;
+    background-image: url(tree_img.jpeg);
+    background-repeat: no-repeat;
+    height: 100vw;
+    background-attachment: fixed;
+}
+div{ 
+    padding: 10px;
+    margin: 10px;
+}
+p.sec1{
+    border-style: dotted;
+   
+}
+p.sec2{
+    border-style: dashed;
+}
+p.sec3{
+    border-style: solid;
+}
+p.sec4{
+    border-style: double;
+}
+p.sec5{
+    border-style: groove;
+}
+p.sec6{
+    border-style: ridge;
+}
+p.sec7{
+    border-style: inset;
+}
+p.sec8{
+    border-style: outset;
+}
+p.sec9{
+    border-style: hidden;
+}
+p.sec10{
+    border-style: dotted dashed solid double;
+}
